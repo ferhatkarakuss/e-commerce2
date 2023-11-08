@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ! HEADER */
+
+header {
+  border-bottom: 1px solid #dee0ea;
+}
+.global-notification {
+  background-color: #1167ef;
+  padding: 14px 0;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.global-notification a {
+  color: white;
+  font-weight: 600;
+}
+
+.header-row {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-center .navigation .menu-list {
+  display: flex;
+}
+
+.header-left .logo {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+}
+
+.header-center .navigation .menu-list {
+  display: flex;
+  column-gap: 30px;
+}
+.header-center .navigation .menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.header-center .navigation .menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.menu-list .menu-list-item .menu-link:hover {
+  text-decoration: underline;
+  color: #1167ef;
+}
+
+.header-center .menu-list i {
+  font-size: 12px;
+}
+
+.header-right .header-right-links {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.header-right .bi-person {
+  font-size: 23px;
+}
+
+.header-right .toggle-button {
+  border: none;
+  background-color: transparent;
+}
+
+.header-right i {
+  font-size: 18px;
+  display: flex;
+}
+
+.header-right .header-cart {
+  position: relative;
+}
+
+.header-right .header-cart-link .header-cart-count {
+  width: 16px;
+  height: 16px;
+  background-color: #1367ef;
+  color: white;
+  font-size: 10px;
+  border-radius: 100%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
