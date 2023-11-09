@@ -38,6 +38,7 @@ p {
 
 header {
   border-bottom: 1px solid #dee0ea;
+  position: relative;
 }
 .global-notification {
   background-color: #1167ef;
@@ -176,4 +177,32 @@ header .menu-dropdown-content a:hover {
 .header-center .menu-list .menu-list-item:hover .menu-dropdown-wrapper {
   opacity: 1;
   visibility: visible;
+}
+
+.menu-dropdown-megamenu {
+  background-color: white;
+  border: 1px solid #dee0ea;
+  padding: 22px;
+  display: flex;
+  column-gap: 50px;
+}
+
+.mega-menu-wrapper .menu-dropdown-wrapper {
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mega-menu-wrapper {
+  position: static !important;
+}
+.mega-menu-wrapper .megamenu-links {
+  display: flex;
+  column-gap: 50px;
+}
+
+.megamenu-products ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
