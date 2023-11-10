@@ -206,3 +206,53 @@ header .menu-dropdown-content a:hover {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+button {
+  line-height: 40px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0 25px;
+  border: 1px solid black;
+  line-height: 40px;
+  font-weight: 500;
+  transition: 0.2s ease all;
+}
+
+.btn-primary {
+  background-color: #1167ef;
+  color: white;
+  border: #1167ef;
+  padding: 0 10px;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: #1167ef;
+  border: 1px solid #1167ef;
+}
+
+.btn-sm {
+  line-height: 33px;
+}
+
+.btn-lg {
+  line-height: 45px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+  outline: none;
+  border: 1px solid #dee0ea;
+  padding: 8px 8px 8px 15px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+  border-color: gray;
+}
