@@ -256,3 +256,12 @@ input[type="number"]:focus,
 input[type="email"]:focus {
   border-color: gray;
 }
+
+/*!modal seach */
+
+.modal-search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
